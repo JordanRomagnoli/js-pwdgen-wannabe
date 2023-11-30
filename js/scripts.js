@@ -16,4 +16,4 @@ console.log(
     ` Il colore preferito dell'utente è : ${userFavoriteColor}`
 );
 
-document.getElementById('username').innerHTML = `${userName}${userSurname}${userFavoriteColor}${classNumber}`;
+document.getElementById('userPass').innerHTML = `${userName}${userSurname}${userFavoriteColor}${classNumber}`;
