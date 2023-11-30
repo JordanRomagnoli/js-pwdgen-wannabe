@@ -1,21 +1,8 @@
 
-/*
-    RESET 
-*/
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 /*
     GENERAL
 */
-
-html{
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 
 /*
@@ -26,26 +13,6 @@ html{
     MAIN
 */
 
-
-/*
-    MEDIA QUERY
-*/
-
-/* Caso base: mobile piccolo */
-@media screen and (min-width: 480px){
+main > div{
+    min-height: 300px;
 }
-/* Caso: mobile grande*/
-@media screen and (min-width: 576px){
-}
-/* Caso: tablet*/
-@media screen and (min-width: 768px){
-}
-/* Caso: desktop*/
-@media screen and (min-width: 992px){
-}
-
-
-
-/*
-    DEBUG
-*/
